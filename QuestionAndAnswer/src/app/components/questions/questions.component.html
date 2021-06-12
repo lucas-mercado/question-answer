@@ -1,0 +1,13 @@
+<div class="card center">
+    <h5 class="card-header">{{title}}</h5>
+    <div class="card-body" style="background-color: white;" [ngClass]="{'disabled': disabled}">
+        <li>
+            <ul>
+                <app-answer *ngFor="let item of question.answers" [answer]="item" (disabled)="onDisabled($event)"></app-answer>
+            </ul>  
+        </li>
+    </div>
+    <div class="card-footer">
+        <a class="btn btn-primary btn-lg" (click)="onClick()"> Next </a>
+    </div>
+</div>

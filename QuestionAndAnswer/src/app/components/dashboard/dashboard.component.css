@@ -1,0 +1,19 @@
+.navbar {
+  height: 10vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background-color: #81b4d8;
+  color: whitesmoke;
+}
+
+.background {
+  background-color: rgb(105, 197, 105);
+}
+
+.container-fluid{
+  width: 100%;
+  height: 80vh;
+  border: black solid 1px;
+}

@@ -1,0 +1,12 @@
+.valid {
+    background-color: rgb(126, 219, 126);
+}
+
+.fail {
+    background-color: rgb(212, 103, 103);
+}
+
+p:hover {
+  cursor: pointer;   
+  background-color: rgba(91, 104, 91, 0.5);
+}
